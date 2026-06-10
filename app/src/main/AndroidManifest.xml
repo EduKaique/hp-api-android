@@ -27,6 +27,7 @@
         <activity android:name=".ui.StaffActivity" />
         <activity android:name=".ui.StudentsActivity" />
         <activity android:name=".ui.SpellsActivity" />
+        <activity android:name=".ui.SpellDetailActivity" />
     </application>
 
 </manifest>
