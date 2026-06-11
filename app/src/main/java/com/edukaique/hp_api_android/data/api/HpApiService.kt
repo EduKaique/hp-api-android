@@ -8,7 +8,7 @@ import retrofit2.http.Path
 interface HpApiService {
 
     @GET("api/character/{id}")
-    suspend fun getCharacterById(@Path("id") id: String): Character
+    suspend fun getCharacterById(@Path("id") id: String): List<Character>
 
     @GET("api/characters/staff")
     suspend fun getStaff(): List<Character>
