@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">hp-api-android</string>
+    <string name="select_house">Selecione uma Casa</string>
+    <string name="student_photo_desc">Foto do estudante</string>
 </resources>
